@@ -1,0 +1,26 @@
+****************************************
+      RPG-41 - The Quest for an A
+****************************************
+
+The purpose of this assignment is for you to bring together your knowledge of
+data structures to put together a fun and exciting roleplaying game.
+
+The theme of the game and design of the world can be whatever you want.
+
+You must meet the following design criteria for an A (one letter grade per
+criteria met):
+1. All actions in combat must have a delay (for example, attacking with a
+dagger might have a short delay, but a greatsword a high delay). Implement a
+data structure to control when the actions actually take place using a heap.
+2. You must have fights capable of supporting 3+ actors in it at once. (An
+actor could be the player, allies, monsters, etc.)
+3. You must use a linked list, BST, or hash table somewhere in the game code,
+and in a meaningful way.
+4. You must implement a world map with the ability to display at a minimum:
+a) The player
+b) Monsters (who carry money on them that you loot when you win)
+c) Walls (that are normally impassible)
+d) Lakes (that are normally impassible)
+e) Treasure (that could be visible, or buried treasure)
+5. You must win the game when you collect 100 gold pieces, or lose when you
+reach zero health.
