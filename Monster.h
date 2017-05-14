@@ -101,8 +101,8 @@ void Monster::rollMonsterType(){
 			damage = (rand()%30) + 15;
 			exp = 50;
 			roll = rand()%20;
-			if(roll < 8) hasKey = true;
-			hasKey = false;
+			if(roll < 5) hasKey = true;
+			else hasKey = false;
 		}
 	}
 }

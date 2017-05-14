@@ -350,7 +350,7 @@ bool Level::canMove(char moveTile, Player &player) {
 				player.useKey();
 				int chestGold = rand()%20 + 14;
 				player.addGold(chestGold);
-				if (player.getGold() >= 100) {
+				if (player.getGold()+chestGold >= 100) {
 					wonGame = true;
 					clear();
 				}
